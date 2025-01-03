@@ -11,5 +11,7 @@ Who can contribute?
 Anyone who desires to share their knowledge and make a difference can contribute to Microsoft Learn! If you have expertise to share, you're in the right place.
 
 This guide is intended for any non-Microsoft employee who wants to contribute their knowledge to the content and experiences on Microsoft Learn. (Are you a Microsoft employee? Use our internal content contributor guides instead.)
-</p>
+</p>Resiliency
+Azure SQL Database is a cloud service where you might expect transient errors that happen in the underlying infrastructure or in the communication between cloud entities. Although Azure SQL Database is resilient on the transitive infrastructure failures, these failures might affect your connectivity. When a transient error occurs while connecting to SQL Database, your code should retry the call. We recommend that retry logic use backoff logic, so that it does not overwhelm the service with multiple clients retrying simultaneously. Retry logic depends on the error messages for SQL Database client programs.
+</p> 
 <hr>
